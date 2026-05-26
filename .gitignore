@@ -1,0 +1,41 @@
+#===================================================================
+# UNREAL ENGINE STANDARD IGNORES
+#===================================================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore packaged game builds and artifacts
+Builds/
+Packaged/
+
+# Ignore backup, log, and crash files
+*.log
+*.crash
+*_Backup/
+
+#===================================================================
+# CROSS-PLATFORM & IDE IGNORES (Fedora Linux <-> Windows 10)
+#===================================================================
+# Windows / Visual Studio Specifics
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Linux / Cross-Platform IDE Specifics (Rider, CLion, VS Code)
+.idea/
+.vscode/
+Makefile
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+
+# OS-Specific system junk
+.DS_Store
+Thumbs.db

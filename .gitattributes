@@ -1,0 +1,37 @@
+#===================================================================
+# LINE ENDING NORMALIZATION (Prevents Windows/Linux Git conflicts)
+#===================================================================
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force code and configuration text files to normalize nicely 
+# across Windows (CRLF) and Linux (LF)
+*.cpp text
+*.h text
+*.cs text
+*.glsl text
+*.hlsl text
+*.ini text
+*.json text
+*.txt text
+*.xml text
+*.yaml text
+*.yml text
+
+#===================================================================
+# UNREAL ENGINE BINARY INTEGRITY (Prevents Git from corrupting assets)
+#===================================================================
+# Explicitly mark all Unreal Engine asset and map files as binary
+*.uasset binary
+*.umap binary
+
+# Common 3D/2D art and audio source assets marked as binary
+*.fbx binary
+*.obj binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.wav binary
+*.mp3 binary
+*.upack binary
