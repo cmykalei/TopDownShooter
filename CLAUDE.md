@@ -1,0 +1,1 @@
+This folder is a project directory for an game in development with Unreal Engine.
